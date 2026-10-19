@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech Labs | Web design, software training and installation in Accra</title>
+<meta name="description" content="Tech Labs builds business websites, trains your team on the software you pay for, and installs and activates it properly. One person, direct answers, based in Accra, Ghana.">
+<link rel="canonical" href="https://fawaazmahama-shadow.github.io/tech/">
+<meta name="theme-color" content="#0e1028">
+
+<!-- Security: only this site, Google Fonts and the Supabase project may load or be contacted. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://hxuavfwdrobasmmtkzdx.supabase.co wss://hxuavfwdrobasmmtkzdx.supabase.co; base-uri 'self'; form-action 'self'; object-src 'none'">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tech Labs">
+<meta property="og:title" content="Tech Labs | Web design, software training and installation in Accra">
+<meta property="og:description" content="Business websites, software training and installation in Accra. Fixed quotes in writing, one person, direct answers.">
+<meta property="og:url" content="https://fawaazmahama-shadow.github.io/tech/">
+<meta property="og:image" content="https://fawaazmahama-shadow.github.io/tech/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tech Labs: websites and software that just work">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Tech Labs","url":"https://fawaazmahama-shadow.github.io/tech/","description":"Web design, software training, and software installation and activation for businesses and individuals in Accra, Ghana.","areaServed":"Accra, Ghana","address":{"@type":"PostalAddress","addressLocality":"Accra","addressCountry":"GH"},"telephone":"+233553550042","email":"fawaazmahama@gmail.com","founder":{"@type":"Person","name":"Mahama Fawaaz Alelemato"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Web design"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Software training"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Software installation and activation"}}]}}
+</script>
+
+<!-- Apply saved or system theme before first paint -->
+<script>try{var t=localStorage.getItem("tl-theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)t="light";if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<noscript><style>.page{display:block!important}.burger,#theme{display:none}</style></noscript>
+<style>
+:root{--bg:#f4f6ff;--surface:#fff;--ink:#14163a;--mute:#5a5f86;--line:#d9ddf2;--accent:#c2410c;--accent2:#2b3cff;--on:#fff;--glow:rgba(43,60,255,.12)}
+:root[data-theme="dark"]{--bg:#0e1028;--surface:#171a3a;--ink:#eef0ff;--mute:#a0a6d4;--line:#2a2e5c;--accent:#ff7a45;--accent2:#7c8cff;--on:#0e1028;--glow:rgba(124,140,255,.18)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:16px/1.65 'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;transition:background .25s,color .25s}
+h1,h2,h3{font-family:'Space Grotesk','Segoe UI',sans-serif;line-height:1.1;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.skip{position:absolute;left:12px;top:-64px;background:var(--accent);color:var(--on);padding:10px 16px;border-radius:8px;z-index:50;text-decoration:none;font-weight:500}
+.skip:focus{top:10px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;height:64px}
+.logo{font:700 1.3rem 'Space Grotesk',sans-serif;text-decoration:none}
+.logo b{color:var(--accent)}
+nav{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+nav a{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--mute);font-weight:500}
+nav a:hover,nav a.on{color:var(--ink);background:var(--glow)}
+.btn{display:inline-block;border:0;cursor:pointer;font:500 1rem 'DM Sans',sans-serif;padding:12px 22px;border-radius:10px;background:var(--accent);color:var(--on);text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+.btn[disabled]{opacity:.6;cursor:wait}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.icon{width:40px;height:40px;padding:0;display:grid;place-items:center;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;font-size:1.1rem}
+.burger{display:none}
+main{flex:1}
+main:focus{outline:none}
+.page{display:none;padding:56px 0 72px}
+.page.on{display:block}
+.hero{padding:84px 0 40px}
+.hero h1{font-size:clamp(2.6rem,7.5vw,5.6rem);max-width:12ch}
+.hero p{max-width:52ch;color:var(--mute);font-size:1.15rem;margin:22px 0 30px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;border:1px solid var(--line);border-radius:14px;margin-top:56px;overflow:hidden}
+.stats div{padding:22px;border-right:1px solid var(--line);background:var(--surface)}
+.stats div:last-child{border-right:0}
+.stats strong{display:block;font:700 2rem 'Space Grotesk',sans-serif;color:var(--accent)}
+.stats span{color:var(--mute);font-size:.92rem}
+h2,h1.ph{font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:14px}
+h2.sub{font-size:1.3rem;margin-bottom:14px}
+.lead{color:var(--mute);max-width:60ch;margin-bottom:34px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px}
+.card h2,.card h3{font-size:1.3rem;margin-bottom:8px}
+.card p{color:var(--mute)}
+.card ul{margin:12px 0 0 18px;color:var(--mute)}
+.price{font:700 1.9rem 'Space Grotesk',sans-serif;margin:6px 0 10px}
+.card.hot{border-color:var(--accent);box-shadow:0 0 0 3px var(--glow)}
+.split{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start}
+.steps{display:grid;gap:14px;counter-reset:s}
+.steps div{counter-increment:s;padding-left:54px;position:relative}
+.steps div::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--accent2);color:var(--on);display:grid;place-items:center;font-weight:700}
+.steps b{display:block}
+.steps span{color:var(--mute)}
+form{display:grid;gap:14px}
+label{font-weight:500;display:grid;gap:6px}
+input,textarea,select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;width:100%}
+textarea{min-height:130px;resize:vertical}
+.hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+.auth{max-width:420px;margin:0 auto}
+.auth h1.ph{text-align:center}
+.or{display:flex;align-items:center;gap:12px;color:var(--mute);font-size:.9rem;margin:6px 0}
+.or::before,.or::after{content:"";flex:1;height:1px;background:var(--line)}
+.gbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:#fff;color:#1f1f1f;border:1px solid #dadce0;font-weight:500}
+.msg{padding:12px 14px;border-radius:10px;font-size:.95rem;display:none}
+.msg.err{display:block;background:rgba(255,80,80,.14);border:1px solid rgba(255,80,80,.5)}
+.msg.ok{display:block;background:rgba(60,200,120,.14);border:1px solid rgba(60,200,120,.5)}
+.small{color:var(--mute);font-size:.92rem;text-align:center;margin-top:14px}
+.small a,.fine a,.lnk{color:var(--accent);font-weight:500}
+.fine{font-size:.85rem;color:var(--mute)}
+.note{font-size:.85rem;color:var(--mute)}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-weight:500}
+details p{color:var(--mute);margin-top:8px}
+.quote{font:500 1.15rem/1.5 'Space Grotesk',sans-serif}
+.quote small{display:block;color:var(--mute);font:400 .9rem 'DM Sans',sans-serif;margin-top:10px}
+.cta{background:#2b3cff;color:#fff;border-radius:18px;padding:44px 32px;margin-top:56px}
+.cta h2{color:#fff}
+.cta .btn{background:#fff;color:#14163a}
+.work-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;margin-bottom:14px;border:1px solid var(--line)}
+.legal h2{margin-top:30px}
+.legal p,.legal ul{color:var(--mute);max-width:70ch}
+.legal ul{margin:8px 0 0 18px}
+.badge{background:var(--glow);color:var(--accent);padding:4px 10px;border-radius:6px;font-size:.85rem;font-weight:500;white-space:nowrap}
+.card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.card-head select{width:auto;padding:4px 8px}
+.sep{border:0;border-top:1px solid var(--line);margin:16px 0}
+.cmts{max-height:160px;overflow-y:auto;margin:10px 0;display:grid;gap:8px}
+.cmt{background:var(--bg);padding:8px 12px;border-radius:8px;font-size:.9rem;overflow-wrap:anywhere}
+.cmt-time{font-size:.75rem;color:var(--mute);margin-top:2px}
+.cform{display:flex;gap:8px;margin-top:10px}
+.cform input{padding:8px 12px;font-size:.9rem}
+.cform .btn{padding:8px 16px;font-size:.9rem}
+.card p{overflow-wrap:anywhere}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+footer{border-top:1px solid var(--line);padding:38px 0 26px;background:var(--surface)}
+.foot{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
+footer h2{font-size:1rem;margin-bottom:10px}
+footer a{display:block;color:var(--mute);text-decoration:none;padding:3px 0}
+footer a:hover{color:var(--ink)}
+footer a.logo{color:var(--ink)}
+.social{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.social a{border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--ink);font-size:.9rem;display:inline-block}
+.copy{color:var(--mute);font-size:.85rem;margin-top:24px}
+.notice{background:var(--glow);border:1px dashed var(--accent2);border-radius:10px;padding:12px 14px;margin-bottom:20px;font-size:.92rem;display:none}
+@media(max-width:820px){.split{grid-template-columns:1fr}.burger{display:grid}nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 22px;flex-direction:column;align-items:stretch}nav.open{display:flex}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" id="skip">Skip to content</a>
+<header><div class="wrap bar">
+<a class="logo" href="#/">Tech<b>Labs</b></a>
+<nav id="nav" aria-label="Main">
+<a href="#/" data-r="">Home</a><a href="#/services" data-r="services">Services</a><a href="#/pricing" data-r="pricing">Pricing</a><a href="#/work" data-r="work" id="navWork" hidden>Work</a><a href="#/about" data-r="about">About</a><a href="#/contact" data-r="contact">Contact</a>
+<span id="navAuth" class="row"></span>
+</nav>
+<div class="row">
+<button class="icon" id="theme" type="button" aria-label="Switch between light and dark mode">☾</button>
+<button class="icon burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+</div>
+</div></header>
+
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<!-- HOME -->
+<section class="page" data-p="">
+<div class="hero">
+<h1>Websites and software that just work.</h1>
+<p>Tech Labs builds business websites, trains your team on the software you pay for, and installs and activates it properly. One person, direct answers, based in Accra.</p>
+<div class="row"><a class="btn" href="#/contact">Get a free quote</a><a class="btn ghost" href="#/services">See what I do</a></div>
+<div class="stats">
+<div><strong>3</strong><span>core services under one roof</span></div>
+<div><strong>24h</strong><span>typical reply on WhatsApp</span></div>
+<div><strong>1</strong><span>person you deal with, start to finish</span></div>
+<div><strong>Accra</strong><span>on-site and remote support</span></div>
+</div>
+</div>
+<h2 style="margin-top:56px">What clients hire me for</h2>
+<p class="lead">Pick one service or combine them. Every job starts with a conversation about what you need.</p>
+<div class="grid">
+<div class="card"><h3>Web design</h3><p>Fast, mobile-ready websites with your brand, your content and a way for customers to reach you.</p></div>
+<div class="card"><h3>Software training</h3><p>Hands-on sessions so you and your staff use Office, design and business tools with confidence.</p></div>
+<div class="card"><h3>Installation and activation</h3><p>Clean installs, correct licensing and activation, set up so they keep working.</p></div>
+</div>
+
+<!-- TODO (owner): replace these with real, named testimonials (with the client's permission) as soon as you have them. -->
+<h2 style="margin-top:64px">What people say</h2>
+<div class="grid" style="margin-top:18px">
+<div class="card quote">“My shop was online in under a week, and I could update it myself.”<small>Retail client, Accra</small></div>
+<div class="card quote">“The training saved my team hours every week.”<small>Small office client</small></div>
+<div class="card quote">“Clear price, no surprises, and he came to us.”<small>Business owner</small></div>
+</div>
+<div class="cta"><h2>Ready to start?</h2><p style="margin-bottom:20px">Tell me what you need. You get a clear quote, not a sales pitch.</p><a class="btn" href="#/contact">Contact Tech Labs</a></div>
+</section>
+
+<!-- SERVICES -->
+<section class="page" data-p="services">
+<h1 class="ph">Services</h1><p class="lead">Practical help for businesses and individuals.</p>
+<div class="grid">
+<div class="card"><h2>Web design</h2><p>Business sites, portfolios, landing pages and online menus.</p><ul><li>Responsive on phone and desktop</li><li>Contact form, maps and WhatsApp</li><li>Customer accounts and saved data, when you need them</li></ul></div>
+<div class="card"><h2>Software training</h2><p>One-to-one or group sessions, in person or online.</p><ul><li>Microsoft Office and Google Workspace</li><li>Design and productivity tools</li><li>Notes and cheat sheets to keep</li></ul></div>
+<div class="card"><h2>Installation and activation</h2><p>Get your computers ready for work.</p><ul><li>Operating system and app setup</li><li>Licensing and activation</li><li>Drivers and basic tuning</li></ul></div>
+</div>
+<h2 style="margin-top:64px">How a project runs</h2>
+<div class="steps" style="margin-top:20px">
+<div><b>Tell me what you need</b><span>A short call or WhatsApp message.</span></div>
+<div><b>Get a fixed quote</b><span>Scope, price and timeline in writing.</span></div>
+<div><b>I build or install</b><span>You see progress along the way.</span></div>
+<div><b>Handover and support</b><span>You get a walkthrough and follow-up help.</span></div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section class="page" data-p="pricing">
+<h1 class="ph">Pricing</h1><p class="lead">Starting prices. Final quotes depend on your scope.</p>
+<div class="grid">
+<div class="card"><h2>Starter</h2><div class="price">From GH₵ 800</div><p>A one-page website for a business, portfolio or event.</p><ul><li>Mobile-ready design</li><li>Contact buttons (WhatsApp, call, email)</li><li>1 revision round</li></ul></div>
+<div class="card hot"><h2>Business</h2><div class="price">From GH₵ 2,500</div><p>A multi-page website with customer accounts and saved data.</p><ul><li>Up to 6 pages</li><li>Customers can sign in with Google</li><li>Contact form to your inbox</li></ul></div>
+<div class="card"><h2>Training and setup</h2><div class="price">Custom</div><p>Training sessions and computer setup, quoted per session or per device.</p><ul><li>One-to-one or group sessions</li><li>Installation and activation, per device or office</li><li>Ongoing support after handover</li></ul></div>
+</div>
+<p class="fine" style="margin-top:16px">Not sure which fits? <a href="#/contact">Tell me what you need</a> and I will reply with a fixed price in writing.</p>
+<h2 style="margin-top:64px">Questions</h2>
+<div style="margin-top:12px">
+<details><summary>Do you work outside Accra?</summary><p>Yes. Training and support can run online, and websites are built remotely.</p></details>
+<details><summary>Can I update the website myself?</summary><p>Yes. I show you how during handover.</p></details>
+<details><summary>How do I pay?</summary><p>Mobile money or bank transfer, with a deposit to start.</p></details>
+</div>
+</section>
+
+<!-- WORK (shown only when PORTFOLIO in the script below has entries) -->
+<section class="page" data-p="work">
+<h1 class="ph">Selected work</h1><p class="lead">Recent websites and projects.</p>
+<div class="grid" id="workGrid"></div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" data-p="about">
+<div class="split">
+<div><h1 class="ph">About Tech Labs</h1>
+<p class="lead" style="margin-bottom:14px">Tech Labs is a solo technology services business run by Mahama Fawaaz Alelemato, a Computer Science student in Accra.</p>
+<p class="lead">The idea is simple: businesses should not need a big agency to get a good website or working software. You deal with the person doing the work, so questions get answered fast and details do not get lost.</p>
+<div id="aboutPhoto"></div></div>
+<div class="card"><h2>What I stand for</h2><ul><li>Plain language, no jargon</li><li>Fixed quotes in writing</li><li>Work that you can maintain</li><li>Support after handover</li></ul></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" data-p="contact">
+<div class="split">
+<div>
+<h1 class="ph">Contact</h1><p class="lead">Send a message and I reply within a day, or reach out directly.</p>
+<div class="notice" id="cfgNote"></div>
+<form id="contactForm">
+<label>Name<input name="name" required maxlength="100" autocomplete="name"></label>
+<label>Email<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
+<label>Service<select name="service"><option>Web design</option><option>Software training</option><option>Installation and activation</option><option>Something else</option></select></label>
+<label>Message<textarea name="message" required maxlength="5000"></textarea></label>
+<label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
+<p class="fine">I store your details only to reply to you. See the <a href="#/privacy">privacy notice</a>.</p>
+<div class="msg" id="cMsg" role="status"></div>
+<button class="btn" type="submit">Send message</button>
+</form>
+</div>
+<div class="card"><h2>Reach me directly</h2>
+<p style="margin:8px 0 14px">Accra, Ghana<br><a href="mailto:fawaazmahama@gmail.com">fawaazmahama@gmail.com</a><br><a href="tel:+233553550042">0553 550 042</a> / <a href="tel:+233500121785">0500 121 785</a></p>
+<div class="social" id="contactSocial"></div>
+</div>
+</div>
+</section>
+
+<!-- PRIVACY -->
+<section class="page legal" data-p="privacy">
+<h1 class="ph">Privacy notice</h1>
+<p class="fine">Last updated: 19 October 2026</p>
+<h2 class="sub">Who I am</h2>
+<p>Tech Labs is run by Mahama Fawaaz Alelemato in Accra, Ghana. Contact: <a class="lnk" href="mailto:fawaazmahama@gmail.com">fawaazmahama@gmail.com</a>.</p>
+<h2 class="sub">What I collect</h2>
+<ul>
+<li>Contact form: your name, email, the service you are interested in, and your message.</li>
+<li>Accounts: your name and email. If you sign up with a password, it is stored in scrambled (hashed) form by the sign-in provider and I cannot read it. If you use Google sign-in, I receive your Google name and email.</li>
+<li>Project requests: the title, service type and budget you enter, and any messages you send in a project discussion.</li>
+</ul>
+<h2 class="sub">Why</h2>
+<p>To reply to you, prepare quotes, deliver your project and let you follow its progress. I do not sell your data and I do not use it for advertising.</p>
+<h2 class="sub">Who can see it</h2>
+<p>Only me. Your data is stored with Supabase (database and sign-in). This site is hosted on GitHub Pages and loads fonts from Google Fonts, so those providers may process technical data such as your IP address.</p>
+<h2 class="sub">How long I keep it</h2>
+<p>For as long as needed to deal with your enquiry or project and to follow up afterwards. You can ask me to delete it at any time.</p>
+<h2 class="sub">Your rights</h2>
+<p>You can ask to see, correct or delete the personal data I hold about you by emailing me. I handle personal data with Ghana's Data Protection Act, 2012 (Act 843) in mind.</p>
+<h2 class="sub">Cookies and storage</h2>
+<p>The site keeps your sign-in session and your light or dark preference in your browser. There are no advertising or tracking cookies and no analytics.</p>
+</section>
+
+<!-- LOGIN -->
+<section class="page" data-p="login">
+<div class="auth"><h1 class="ph">Log in</h1><p class="lead" style="text-align:center">Welcome back.</p>
+<form id="loginForm">
+<button type="button" class="btn gbtn" data-google>Continue with Google</button>
+<div class="or">or use email</div>
+<label>Email<input name="email" type="email" required autocomplete="email"></label>
+<label>Password<input name="password" type="password" required autocomplete="current-password"></label>
+<div class="msg" id="lMsg" role="status"></div>
+<button class="btn" type="submit">Log in</button>
+</form>
+<p class="small">No account yet? <a href="#/signup">Sign up</a></p>
+</div>
+</section>
+
+<!-- SIGNUP -->
+<section class="page" data-p="signup">
+<div class="auth"><h1 class="ph">Create your account</h1><p class="lead" style="text-align:center">Track your requests with Tech Labs.</p>
+<form id="signupForm">
+<button type="button" class="btn gbtn" data-google>Sign up with Google</button>
+<div class="or">or use email</div>
+<label>Full name<input name="name" required maxlength="100" autocomplete="name"></label>
+<label>Email<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
+<label>Password (8+ characters)<input name="password" type="password" minlength="8" required autocomplete="new-password"></label>
+<p class="fine">By creating an account you agree to the <a href="#/privacy">privacy notice</a>.</p>
+<div class="msg" id="sMsg" role="status"></div>
+<button class="btn" type="submit">Create account</button>
+</form>
+<p class="small">Already registered? <a href="#/login">Log in</a></p>
+</div>
+</section>
+
+<!-- DASHBOARD -->
+<section class="page" data-p="dashboard">
+<h1 class="ph">Your account</h1><p class="lead" id="who"></p>
+<div class="row" style="margin-bottom:30px"><a class="btn" href="#/contact">Send a message</a><button class="btn ghost" id="logout" type="button">Log out</button></div>
+<h2 class="sub">Your active projects</h2>
+<div class="grid" id="myProjects" style="margin-bottom:36px"></div>
+<div class="card" style="margin-bottom:36px">
+<h2 style="margin-bottom:12px">Request a new project</h2>
+<form id="projectForm">
+<label>Project title / brief name<input name="project_title" required maxlength="150" placeholder="e.g. Shop Website Design"></label>
+<label>Service type<select name="service_type"><option>Web design</option><option>Software training</option><option>Installation and activation</option></select></label>
+<label>Estimated budget (GH₵)<input name="budget_ghc" type="number" min="0" step="1" placeholder="2500"></label>
+<div class="msg" id="pMsg" role="status"></div>
+<button class="btn" type="submit">Submit project request</button>
+</form>
+</div>
+<h2 class="sub">Your messages</h2>
+<div class="grid" id="myMsgs"></div>
+</section>
+
+<!-- ADMIN -->
+<section class="page" data-p="admin">
+<h1 class="ph">Admin Portal</h1>
+<p class="lead">Manage all incoming client requests and project statuses.</p>
+<h2 class="sub">All client projects</h2>
+<div class="grid" id="adminProjects" style="margin-bottom:36px"></div>
+<h2 class="sub">All messages</h2>
+<div class="grid" id="adminMsgs"></div>
+</section>
+
+</div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<footer><div class="wrap">
+<div class="foot">
+<div><a class="logo" href="#/">Tech<b>Labs</b></a><p style="color:var(--mute);margin-top:8px">Web design, software training, installation and activation.</p></div>
+<div><h2>Pages</h2><a href="#/services">Services</a><a href="#/pricing">Pricing</a><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a></div>
+<div><h2>Find me</h2><div class="social" id="footSocial"></div></div>
+</div>
+<p class="copy">© <span id="yr">2026</span> Tech Labs, Accra, Ghana. All rights reserved.</p>
+</div></footer>
+
+<script src="vendor/supabase.js"></script>
+<script>
+"use strict";
+/* =====================================================================
+   SETTINGS
+   The publishable key below is meant to be public. What protects your
+   data is Row Level Security: run supabase/schema.sql once (see README).
+   ===================================================================== */
+const SUPABASE_URL = "https://hxuavfwdrobasmmtkzdx.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_sg8sjEqhmvHkqlbLvSAJnQ_B1-2yYA5";
+
+/* Add real projects here and a "Work" page appears automatically.
+   Put screenshots in an images/ folder in the repo, e.g. "images/shop.jpg".
+   { title: "Adwoa's Boutique", tag: "Web design", desc: "One-page shop with WhatsApp ordering.", url: "https://example.com", image: "images/shop.jpg" } */
+const PORTFOLIO = [];
+
+/* Optional photo for the About page, e.g. "images/me.jpg" */
+const ABOUT_PHOTO = "";
+
+/* ===================================================================== */
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate=d=>new Date(d).toLocaleDateString();
+const fmtTime=d=>new Date(d).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"});
+
+let toastTimer;
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove("show"),3500);}
+
+/* theme */
+const root=document.documentElement;
+function paintTheme(){ $("#theme").textContent = root.dataset.theme==="dark" ? "☀" : "☾"; }
+$("#theme").onclick=()=>{ root.dataset.theme = root.dataset.theme==="dark"?"light":"dark"; try{localStorage.setItem("tl-theme",root.dataset.theme)}catch(e){} paintTheme(); };
+paintTheme();
+
+/* mobile menu */
+const navEl=$("#nav"), burger=$("#burger");
+function setNav(open){navEl.classList.toggle("open",open);burger.setAttribute("aria-expanded",String(open));burger.setAttribute("aria-label",open?"Close menu":"Open menu");}
+burger.onclick=()=>setNav(!navEl.classList.contains("open"));
+addEventListener("keydown",e=>{if(e.key==="Escape"&&navEl.classList.contains("open")){setNav(false);burger.focus();}});
+$("#skip").onclick=e=>{e.preventDefault();$("#main").focus();};
+
+/* contact buttons */
+const MAPS="https://www.google.com/maps/search/?api=1&query=Accra,Ghana";
+const links=[["Location",MAPS],["WhatsApp","https://wa.me/233553550042"],["Call","tel:+233553550042"],["LinkedIn","https://linkedin.com/in/fawaaz-mahama-a799533a5"],["TikTok","https://www.tiktok.com/@hollow.gh"]];
+const socialHTML=links.map(([n,h])=>`<a href="${esc(h)}" ${h.startsWith("http")?'target="_blank" rel="noopener noreferrer"':''}>${esc(n)}</a>`).join("");
+$("#contactSocial").innerHTML=socialHTML; $("#footSocial").innerHTML=socialHTML;
+$("#yr").textContent=new Date().getFullYear();
+
+/* portfolio + about photo */
+function renderWork(){
+  $("#navWork").hidden=!PORTFOLIO.length;
+  $("#workGrid").innerHTML=PORTFOLIO.map(p=>{
+    const url=/^https:\/\//.test(p.url||"")?p.url:"";
+    return `<article class="card">${p.image?`<img class="work-img" src="${esc(p.image)}" alt="${esc(p.title)} screenshot" loading="lazy">`:""}${p.tag?`<p class="fine">${esc(p.tag)}</p>`:""}<h2>${esc(p.title)}</h2><p>${esc(p.desc)}</p>${url?`<p style="margin-top:12px"><a class="lnk" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Visit site</a></p>`:""}</article>`;
+  }).join("");
+}
+renderWork();
+if(ABOUT_PHOTO) $("#aboutPhoto").innerHTML=`<img class="work-img" style="margin-top:24px;max-width:360px" src="${esc(ABOUT_PHOTO)}" alt="Mahama Fawaaz Alelemato, founder of Tech Labs" loading="lazy">`;
+
+/* supabase (PKCE keeps tokens out of the URL hash, so it works with the hash router) */
+const ready = SUPABASE_URL.startsWith("http") && !!window.supabase;
+const sb = ready ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {auth:{flowType:"pkce",detectSessionInUrl:true,persistSession:true,autoRefreshToken:true}}) : null;
+let user=null;
+/* UI only. Real enforcement is Row Level Security in the database. */
+const isAdmin=()=>user?.app_metadata?.role==="admin";
+const REDIRECT=location.origin+location.pathname.replace(/index\.html$/,"");
+
+if(!ready){const n=$("#cfgNote");n.style.display="block";n.textContent="Online forms are temporarily unavailable. Please reach me on WhatsApp or by email.";}
+
+function setNext(h){try{sessionStorage.setItem("tl-next",h);}catch(e){}}
+function takeNext(){try{const v=sessionStorage.getItem("tl-next");if(v){sessionStorage.removeItem("tl-next");return v;}}catch(e){}return null;}
+
+/* router */
+const DESC="Tech Labs builds business websites, trains your team on the software you pay for, and installs and activates it properly. One person, direct answers, based in Accra, Ghana.";
+const META={
+  "":["Tech Labs | Web design, software training and installation in Accra",DESC],
+  services:["Services | Tech Labs, Accra","Web design, software training, and installation and activation for businesses and individuals in Accra."],
+  pricing:["Pricing | Tech Labs, Accra","Starting prices for websites from GH₵ 800, plus custom quotes for training and computer setup in Accra."],
+  work:["Selected work | Tech Labs, Accra","Recent websites and projects by Tech Labs."],
+  about:["About | Tech Labs, Accra","Tech Labs is a solo technology services business in Accra run by Mahama Fawaaz Alelemato."],
+  contact:["Contact | Tech Labs, Accra","Get a free quote for web design, software training or installation in Accra."],
+  privacy:["Privacy notice | Tech Labs","How Tech Labs collects, uses and protects your personal data."],
+  login:["Log in | Tech Labs",DESC],
+  signup:["Create your account | Tech Labs",DESC],
+  dashboard:["Your account | Tech Labs",DESC],
+  admin:["Admin | Tech Labs",DESC]
+};
+const ROUTES=$$(".page").map(p=>p.dataset.p);
+const PROTECTED=["dashboard","admin"];
+let current="", firstRoute=true;
+
+function route(){
+  let r=(location.hash.replace(/^#\/?/,"")||"").split("?")[0];
+  if(!ROUTES.includes(r)||(r==="work"&&!PORTFOLIO.length)) r="";
+  if(user){const nx=takeNext(); if(nx&&nx!==location.hash){location.hash=nx;return;}}
+  if(PROTECTED.includes(r)&&!user){location.hash="#/login";return;}
+  if(r==="admin"&&!isAdmin()){location.hash="#/dashboard";return;}
+  if((r==="login"||r==="signup")&&user){location.hash="#/dashboard";return;}
+  current=r;
+  $$(".page").forEach(p=>p.classList.toggle("on",p.dataset.p===r));
+  markNav();
+  const m=META[r]||META[""]; document.title=m[0]; $('meta[name="description"]').setAttribute("content",m[1]);
+  setNav(false); window.scrollTo(0,0);
+  if(!firstRoute){const h=$(".page.on h1");if(h){h.tabIndex=-1;h.focus({preventScroll:true});}}
+  firstRoute=false;
+  if(r==="contact") prefillContact();
+  if(r==="dashboard"){loadMine();loadClientProjects();}
+  if(r==="admin"){loadAdminProjects();loadAdminMessages();startAdminRealtime();}
+}
+function markNav(){
+  $$("nav a[data-r]").forEach(a=>{const on=a.dataset.r===current;a.classList.toggle("on",on);if(on)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");});
+}
+addEventListener("hashchange",route);
+
+function paintAuth(){
+  $("#navAuth").innerHTML = user
+    ? `${isAdmin()?'<a href="#/admin" data-r="admin">Admin</a>':''}<a href="#/dashboard" data-r="dashboard">Account</a>`
+    : `<a href="#/login" data-r="login">Log in</a><a class="btn" href="#/signup" style="padding:8px 16px">Sign up</a>`;
+  if(user) $("#who").textContent="Signed in as "+user.email;
+  markNav();
+}
+
+/* form helpers */
+function show(id,type,text){const e=$(id);e.className="msg "+type;e.textContent=text;}
+function clearMsg(id){const e=$(id);e.className="msg";e.textContent="";}
+function needKeys(id){if(!ready){show(id,"err","Online forms are unavailable right now. Please use WhatsApp or email instead.");return true;}return false;}
+async function withBusy(form,fn){
+  const b=form.querySelector('button[type="submit"]');
+  if(b){if(b.disabled)return;b.disabled=true;b.dataset.t=b.textContent;b.textContent="Please wait…";}
+  try{await fn();}catch(err){console.error(err);toast("Something went wrong. Please try again.");}
+  finally{if(b){b.disabled=false;b.textContent=b.dataset.t;}}
+}
+
+/* auth */
+$$("[data-google]").forEach(b=>b.addEventListener("click",async()=>{
+  const id="#"+b.closest("form").querySelector(".msg").id;
+  clearMsg(id); if(needKeys(id)) return;
+  setNext("#/dashboard");
+  const {error}=await sb.auth.signInWithOAuth({provider:"google",options:{redirectTo:REDIRECT}});
+  if(error){takeNext();show(id,"err",error.message);}
+}));
+$("#loginForm").addEventListener("submit",e=>{e.preventDefault();const form=e.currentTarget;
+  withBusy(form,async()=>{
+    clearMsg("#lMsg"); if(needKeys("#lMsg"))return;
+    const f=new FormData(form);
+    const {error}=await sb.auth.signInWithPassword({email:String(f.get("email")).trim(),password:String(f.get("password"))});
+    if(error) show("#lMsg","err",error.message);
+  });});
+$("#signupForm").addEventListener("submit",e=>{e.preventDefault();const form=e.currentTarget;
+  withBusy(form,async()=>{
+    clearMsg("#sMsg"); if(needKeys("#sMsg"))return;
+    const f=new FormData(form);
+    setNext("#/dashboard");
+    const {data,error}=await sb.auth.signUp({email:String(f.get("email")).trim(),password:String(f.get("password")),options:{data:{full_name:String(f.get("name")).trim()},emailRedirectTo:REDIRECT}});
+    if(error){takeNext();show("#sMsg","err",error.message);}
+    else if(!data.session){takeNext();show("#sMsg","ok","Account created. Check your email to confirm it, then log in.");}
+  });});
+$("#logout").onclick=async()=>{ if(sb) await sb.auth.signOut(); user=null; stopRealtime(); paintAuth(); location.hash="#/"; };
+
+/* contact */
+let lastSend=0;
+function prefillContact(){
+  if(!user) return;
+  const f=$("#contactForm"), em=f.querySelector('[name="email"]'), nm=f.querySelector('[name="name"]');
+  if(!em.value) em.value=user.email||"";
+  if(!nm.value) nm.value=user.user_metadata?.full_name||"";
+}
+$("#contactForm").addEventListener("submit",e=>{e.preventDefault();const form=e.currentTarget;
+  withBusy(form,async()=>{
+    clearMsg("#cMsg"); if(needKeys("#cMsg"))return;
+    const f=Object.fromEntries(new FormData(form));
+    if(f.website){show("#cMsg","ok","Message sent. I will reply within a day.");form.reset();return;} /* honeypot: bots only */
+    if(Date.now()-lastSend<15000){show("#cMsg","err","Please wait a few seconds before sending another message.");return;}
+    const {error}=await sb.from("messages").insert({name:f.name.trim(),email:f.email.trim(),service:f.service,message:f.message.trim(),user_id:user?.id||null});
+    if(error){console.error(error);show("#cMsg","err","Could not send your message. Please try again, or reach me on WhatsApp.");}
+    else{lastSend=Date.now();show("#cMsg","ok","Message sent. I will reply within a day.");form.reset();prefillContact();}
+  });});
+
+/* ---------- client dashboard ---------- */
+async function loadMine(){
+  const box=$("#myMsgs"); box.innerHTML="";
+  if(!sb||!user) return;
+  const {data,error}=await sb.from("messages").select("*").eq("user_id",user.id).order("created_at",{ascending:false});
+  if(error){console.error(error);box.innerHTML='<div class="card"><p>Could not load your messages.</p></div>';return;}
+  if(!data.length){box.innerHTML='<div class="card"><p>No requests yet. Send one from the contact page.</p></div>';return;}
+  data.forEach(m=>{const d=document.createElement("div");d.className="card";
+    d.innerHTML='<h3></h3><p></p><p class="note" style="margin-top:8px"></p>';
+    d.children[0].textContent=m.service; d.children[1].textContent=m.message;
+    d.children[2].textContent=fmtDate(m.created_at); box.appendChild(d);});
+}
+
+async function fetchComments(ids){
+  if(!sb||!ids.length) return [];
+  const {data,error}=await sb.from("project_comments").select("*").in("project_id",ids).order("created_at",{ascending:true});
+  if(error) console.error(error);
+  return data||[];
+}
+const commentsHTML=list=>list.length
+  ? list.map(c=>`<div class="cmt"><strong>${esc(c.sender_name)}:</strong> ${esc(c.message)}<div class="cmt-time">${esc(fmtTime(c.created_at))}</div></div>`).join("")
+  : '<p class="note">No messages yet.</p>';
+
+function projectCard(p,admin,comments){
+  const head=admin
+    ? `<select data-status="${Number(p.id)}" aria-label="Project status">${["Received","In Progress","Review","Completed"].map(s=>`<option${p.status===s?" selected":""}>${s}</option>`).join("")}</select>`
+    : `<span class="badge">${esc(p.status)}</span>`;
+  const who=admin
+    ? `<p class="note">Client: ${p.client_name?esc(p.client_name):"Unknown"}${p.client_email?` (<a class="lnk" href="mailto:${esc(p.client_email)}">${esc(p.client_email)}</a>)`:` · ID ${esc(p.user_id)}`}</p>`
+    : "";
+  return `<div class="card" style="margin-bottom:20px">
+<div class="card-head"><h3>${esc(p.project_title)}</h3>${head}</div>
+<p><strong>Service:</strong> ${esc(p.service_type)}</p>
+${p.budget_ghc?`<p><strong>Budget:</strong> GH₵ ${esc(p.budget_ghc)}</p>`:""}
+${who}
+<p class="note" style="margin-top:8px">Requested: ${esc(fmtDate(p.created_at))}</p>
+<hr class="sep"><h4>${admin?"Client discussion":"Project discussion"}</h4>
+<div class="cmts">${commentsHTML(comments)}</div>
+<form class="cform" data-comment data-pid="${Number(p.id)}"${admin?' data-admin="1"':""}>
+<input name="msg" maxlength="2000" required aria-label="${admin?"Reply to client":"Message about this project"}" placeholder="${admin?"Reply to client as Tech Labs...":"Type a message or question..."}">
+<button class="btn" type="submit">${admin?"Reply":"Send"}</button>
+</form></div>`;
+}
+
+async function loadClientProjects(){
+  const box=$("#myProjects");
+  if(!sb||!user) return;
+  box.innerHTML='<p class="note">Loading your projects...</p>';
+  const {data,error}=await sb.from("client_projects").select("*").eq("user_id",user.id).order("created_at",{ascending:false});
+  if(error){console.error(error);box.innerHTML='<div class="card"><p>Could not load your projects.</p></div>';return;}
+  if(!data.length){box.innerHTML='<div class="card"><p>No active projects yet. Submit a request below!</p></div>';return;}
+  const comments=await fetchComments(data.map(p=>p.id));
+  box.innerHTML=data.map(p=>projectCard(p,false,comments.filter(c=>c.project_id===p.id))).join("");
+}
+
+$("#projectForm").addEventListener("submit",e=>{e.preventDefault();const form=e.currentTarget;
+  withBusy(form,async()=>{
+    clearMsg("#pMsg"); if(needKeys("#pMsg")||!user)return;
+    const f=Object.fromEntries(new FormData(form));
+    const budget=f.budget_ghc?Number(f.budget_ghc):null;
+    /* owner, client name/email and status are set by the database, never by the browser */
+    const {error}=await sb.from("client_projects").insert({project_title:f.project_title.trim(),service_type:f.service_type,budget_ghc:(budget!==null&&Number.isFinite(budget)&&budget>=0)?budget:null});
+    if(error){console.error(error);show("#pMsg","err","Could not submit your request. Please try again.");}
+    else{show("#pMsg","ok","Project request submitted successfully!");form.reset();loadClientProjects();}
+  });});
+
+async function sendComment(form){
+  const input=form.querySelector('input[name="msg"]'), message=input.value.trim();
+  if(!message||!user) return;
+  await withBusy(form,async()=>{
+    /* sender name and user id are set by the database from the signed-in account */
+    const {error}=await sb.from("project_comments").insert({project_id:Number(form.dataset.pid),message});
+    if(error){console.error(error);toast("Could not send your message.");return;}
+    input.value="";
+    if(form.dataset.admin) loadAdminProjects(); else loadClientProjects();
+  });
+}
+
+/* ---------- admin ---------- */
+async function loadAdminProjects(){
+  const box=$("#adminProjects");
+  if(!sb||!isAdmin()) return;
+  box.innerHTML='<p class="note">Loading all projects...</p>';
+  const {data,error}=await sb.from("client_projects").select("*").order("created_at",{ascending:false});
+  if(error){console.error(error);box.innerHTML='<div class="card"><p>Could not load projects.</p></div>';return;}
+  if(!data.length){box.innerHTML='<div class="card"><p>No projects in the database yet.</p></div>';return;}
+  const comments=await fetchComments(data.map(p=>p.id));
+  box.innerHTML=data.map(p=>projectCard(p,true,comments.filter(c=>c.project_id===p.id))).join("");
+}
+async function loadAdminMessages(){
+  const box=$("#adminMsgs");
+  if(!sb||!isAdmin()) return;
+  const {data,error}=await sb.from("messages").select("*").order("created_at",{ascending:false});
+  if(error){console.error(error);box.innerHTML='<div class="card"><p>Could not load messages.</p></div>';return;}
+  if(!data.length){box.innerHTML='<div class="card"><p>No contact messages found.</p></div>';return;}
+  box.innerHTML=data.map(m=>`<div class="card">
+<h3>${esc(m.name)}</h3>
+<p><a class="lnk" href="mailto:${esc(m.email)}">${esc(m.email)}</a></p>
+<p><strong>Service:</strong> ${esc(m.service)}</p>
+<p style="margin-top:6px;white-space:pre-wrap">${esc(m.message)}</p>
+<p class="note" style="margin-top:8px">Received: ${esc(new Date(m.created_at).toLocaleString())}</p>
+<div class="row" style="margin-top:12px"><a class="btn ghost" style="padding:8px 16px;font-size:.9rem" href="mailto:${esc(m.email)}?subject=${esc(encodeURIComponent("Re: "+(m.service||"your enquiry")))}">Reply by email</a><button class="btn ghost" style="padding:8px 16px;font-size:.9rem" type="button" data-del="${Number(m.id)}">Delete</button></div>
+</div>`).join("");
+}
+
+/* live updates while the admin portal is open */
+let rt=null;
+function startAdminRealtime(){
+  if(!sb||rt||!isAdmin()) return;
+  rt=sb.channel("admin-feed")
+    .on("postgres_changes",{event:"INSERT",schema:"public",table:"messages"},()=>{toast("New contact message");if(current==="admin")loadAdminMessages();})
+    .on("postgres_changes",{event:"INSERT",schema:"public",table:"client_projects"},()=>{toast("New project request");if(current==="admin")loadAdminProjects();})
+    .on("postgres_changes",{event:"INSERT",schema:"public",table:"project_comments"},p=>{if(p.new?.user_id!==user?.id)toast("New client reply");if(current==="admin")loadAdminProjects();})
+    .subscribe();
+}
+function stopRealtime(){ if(sb&&rt) sb.removeChannel(rt); rt=null; }
+
+/* one set of delegated listeners instead of inline onclick/onsubmit handlers */
+document.addEventListener("submit",e=>{
+  const f=e.target; if(!(f instanceof HTMLFormElement)||!f.matches("[data-comment]")) return;
+  e.preventDefault(); sendComment(f);
+});
+document.addEventListener("change",async e=>{
+  const s=e.target; if(!(s instanceof HTMLSelectElement)||!s.matches("[data-status]")||!isAdmin()) return;
+  const {data,error}=await sb.from("client_projects").update({status:s.value}).eq("id",Number(s.dataset.status)).select("id");
+  if(error||!data||!data.length){console.error(error);toast("Could not update status.");loadAdminProjects();}
+  else toast("Status updated to "+s.value);
+});
+document.addEventListener("click",async e=>{
+  const b=e.target instanceof Element?e.target.closest("[data-del]"):null; if(!b||!isAdmin()) return;
+  if(!confirm("Delete this message permanently?")) return;
+  const {data,error}=await sb.from("messages").delete().eq("id",Number(b.dataset.del)).select("id");
+  if(error||!data||!data.length){console.error(error);toast("Could not delete the message.");}
+  else{toast("Message deleted");loadAdminMessages();}
+});
+
+/* boot */
+(async()=>{
+  if(sb){
+    const {data}=await sb.auth.getSession(); user=data.session?.user||null;
+    sb.auth.onAuthStateChange((evt,s)=>{
+      const nu=s?.user||null, changed=(nu?.id||null)!==(user?.id||null);
+      user=nu;
+      /* deferred: supabase advises against calling its API from inside this callback */
+      setTimeout(()=>{paintAuth(); if(changed){ if(!nu) stopRealtime(); route(); }},0);
+    });
+  }
+  paintAuth(); route();
+})();
+</script>
+</body>
+</html>
